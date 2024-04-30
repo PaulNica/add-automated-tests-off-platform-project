@@ -8,7 +8,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.13.0
+          python-version: python-3.13.0-alpha.6-darwin-x64.tar.gz
           architecture: x64
       - name: Install dependencies
         run: pip install -r requirements.txt
